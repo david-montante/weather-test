@@ -7,7 +7,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - /private/var/lib/postgresql:/var/lib/postgresql
+      - /var/lib/postgresql:/var/lib/postgresql
   server:
     build: ./server
     env_file: .env

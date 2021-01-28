@@ -59,7 +59,7 @@ function Home({ match, history }) {
   useEffect(() => {
     async function loadData() {
       setLoading(true);
-      const apiResponse = await api.get(`/weather/year/${page}`);
+      const apiResponse = await api.get(`http://localhost:8080/api/galaxy-weather/weather/year/${page}`);
       setDays(apiResponse.data);
       setLoading(false);
     }

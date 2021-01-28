@@ -11,8 +11,9 @@ To run you need docker and docker compose.
 ## Installation
 
 ```bash
-$ git clone git@github.com:ielijose/galaxy-weather.git
+$ git clone git@github.com:david-montante/weather-test.git
 $ cd galaxy-weather
+$ docker-compose build
 $ docker-compose up
 ```
 

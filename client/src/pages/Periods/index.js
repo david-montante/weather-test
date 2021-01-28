@@ -45,7 +45,7 @@ function Periods({ match, history }) {
   useEffect(() => {
     async function loadData() {
       setLoading(true);
-      const apiResponse = await api.get(`/periods`);
+      const apiResponse = await api.get(`http://localhost:8080/api/galaxy-weather/periods`);
       setDays(apiResponse.data);
       setLoading(false);
     }

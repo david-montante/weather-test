@@ -53,7 +53,7 @@ function Day({ match, history }) {
   useEffect(() => {
     async function loadData() {
       setLoading(true);
-      const apiResponse = await api.get(`/weather/day/${day}`);
+      const apiResponse = await api.get(`http://localhost:8080/api/galaxy-weather/weather/day/${day}`);
       setWeather(apiResponse.data);
       setLoading(false);
     }
