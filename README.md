@@ -1,9 +1,5 @@
 # Galaxy Weather
 
-## Demo
-
-Here is a working live demo: http://galaxy-weather.ml
-
 ## Prerequisites
 
 To run you need docker and docker compose.
