@@ -17,11 +17,11 @@ $ docker-compose build
 $ docker-compose up
 ```
 
-Open http://localhost:3000
+## How to use
 
-### Sample Data
+1. First you need to open: http://localhost:8080/api/galaxy-weather/samples to fill the app with the data of the first 10 years. 
+2. Open http://localhost:3000 and enjoy :)
 
-To fill the app with the data of the first 10 years you need to open: http://localhost:8080/api/galaxy-weather/samples
 
 ## License
 
