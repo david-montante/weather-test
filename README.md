@@ -12,7 +12,7 @@ To run you need docker and docker compose.
 
 ```bash
 $ git clone git@github.com:david-montante/weather-test.git
-$ cd galaxy-weather
+$ cd weather-test
 $ docker-compose build
 $ docker-compose up
 ```
